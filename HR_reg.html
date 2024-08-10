@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+        header ,footer{
+            padding: 15px;
+            text-align: center;
+            background-color:#4f6173;
+            color: aliceblue;
+        }
+        .navbar {
+            display: inline;
+            padding: 18px;
+        }
+        .navbar a{
+            color:aliceblue;
+            text-decoration: none;
+        }
+        .register form {
+            
+            width:max-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            margin:0%;
+            padding: 0px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: #cfdeeb;
+        }
+        button {
+            background-color:  rgb(189, 226, 185);
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse:collapse;
+            width: 100%;
+        }
+        th,td{
+            padding: 12px;
+            text-align: center;
+            border:1px solid;
+            border-color:#a2c2e3 ;
+        }
+        .empdirectory{
+            text-align: center;
+        }
+        .contactus {
+            text-align: center;
+        }
+    </style>
+     
+    <title> HR Company Registration </title>
+    
+</head>
+<link rel="icon" href="company.jpeg">
+<body>
+    <header>
+    <h1>Welcome To Company's HR Portal</h1>
+    <nav>
+        <ul>
+            <li class="navbar">  <a href="#employee-registration">Employee Registration</a></li>
+            <li class="navbar"> <a href="#employee-registration">Directory</a></li>
+            <li class="navbar"> <a href="#employee-registration">Contact us</a></li>
+        </ul>   
+    </nav>
+</header>
+    <img src="canva.png" width="100%" height="400">
+    <!-- <image src="https://www.workindia.in/employers/_next-images/?url=http%3A%2F%2Fresources.workindia.in%2Femployer%2Fassets%2Fimg%2Flanding_hero.png&w=1920&q=75" width="100%" height="800"></image> -->
+    <section id="employee-registration" class= "register form" >
+        
+        <form>
+            <h2>Employee Registration</h2>
+            <p>Fill The Given Form To Register As An Employee</p><br>
+            <label for="name">Name: </label>
+            <input type="text" id="name"><br><br>
+
+            <label for="age">Age: </label>
+            <input type="number" id="age"><br><br>
+
+            
+            <label for="join">Joining Date: </label>
+            <input type="date" id="join"><br><br>
+
+            <label for="email">Email Id: </label>
+            <input type="email" id="email"><br><br>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password"><br><br>
+
+            <label for="role">Role: </label>
+            <select>
+                <option>Software Engineer</option>
+                <option>Marketing</option>
+                <option>Senior Software Developer</option>
+                <option>Product Manager</option>
+                <option>Associate Consultant</option>
+                <option>Design Engineer</option>
+                <option>Data Scientist</option>
+                <option>ML Engineer</option>
+                <option>Devops Engineer</option>
+            </select>
+            <br><br>
+            <button>Submit</button>
+        </form>
+        <br>
+    </section>
+
+    <section id="Employee-Directory" class="empdirectory">
+        <h2>Employee Directory</h2>
+        <p>Directory Of All Registered Employees</p>
+        <table >
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>22210010</td>
+            <td>Rajkumar Shingh Yadav</td>
+            <td>Senior Software Developer</td>
+        </tr>
+        <tr>
+            <td>22210011</td>
+            <td>Mulayam Singh Devi</td>
+            <td>Data Scientist</td>
+        </tr>
+        <tr>
+            <td>22210010</td>
+            <td>Mahendra s. Godbole</td>
+            <td>Data Scientist</td>
+        </tr>
+        <tr>
+            <td>22210012</td>
+            <td>Surya Kumar Sindhiya</td>
+            <td>Associate Consultant</td>
+        </tr>
+        <tr>
+            <td>22210013</td>
+            <td>Preeti Chawla</td>
+            <td>Associate Consultant</td>
+        </tr>
+        <tr>
+            <td>22210015</td>
+            <td>Husssain Shaikh</td>
+            <td>Associate Consultant</td>
+        </tr>
+        
+        <tr>
+            <td>22210015</td>
+            <td>Umesh Patel</td>
+            <td>Associate Consultant</td>
+        </tr>
+        <tr>
+            <td>22210015</td>
+            <td>Ankit Menon</td>
+            <td>Associate Consultant</td>
+        </tr>
+        </table>
+        <br>
+    </section>
+    <section id="Contact Us" class="contactus">
+        <h3>Contact Us</h3>
+        <p>You can contact us at company.official@gmail.com 
+           , Office Timings : 9 A.M. - 7 P.M.
+        </p>
+
+        <br>
+        <iframe height="200 " width="300 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8893.04773991909!2d72.95735453939035!3d18.884264961257934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7dbe9f60162a5%3A0x51abbaedb318ff93!2sMaharashtra%20State%20Power%20Generation%20Company%20Limited!5e0!3m2!1sen!2sin!4v1703242211224!5m2!1sen!2sin" width="800" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <br>
+    <footer>
+        &copy; 2023 company Name
+    </footer>
+</body>
+</html>
